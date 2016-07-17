@@ -1,0 +1,44 @@
+<!--
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+<body id="top">
+  {% include header.html %}
+  <div class="container">
+    <section id="about">
+      <h2>About knobJS</h2>
+      <p>
+        Knob.js is a component library based on knockoutjs. The main goal of the lib is to ease the way of creating skinnable / themed UIs. The components communicate through ko.observables. Other than knockout, its dependency is superdata which is a general data layer which can be used with any client-side frameworks.
+      </p>
+      <p>For documentation and code please check out our <a href="https://github.com/EDMdesigner/knobjs" target="_blank">Github repository.</a></p>
+    </section>
+    <section id="components">
+    </section>
+  </div>
+  {% include footer.html %}
+</body>
+</html>

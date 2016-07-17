@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: KnobJS
+email: gyula.nemeth@edmdesigner.com
+description: > # this means to ignore newlines until "baseurl:"
+  Knobjs is a component library based on knockoutjs to build theamable UIs with ease.
+  The main goal of the lib is to ease the way of creating skinnable / themed UIs.
+  The components communicate through ko.observables.
+  Other than knockout, its dependency is superdata which is a general data layer which can be used with any client-side frameworks.  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://knobjs.com" # the base hostname & protocol for your site
+github_username:  EDMdesigner
+
+# Build settings
+markdown: kramdown

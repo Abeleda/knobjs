@@ -1,0 +1,36 @@
+<div class="knob-color-picker">
+    <div id="container">
+        <div id="picker" class="block">
+            <div class="ui-color-picker" data-topic="picker" data-mode="HSL">
+                <div id="left">
+                    <div id="picking-area"></div>
+                </div>
+
+                <div id="right">
+                    <div id="hue"></div>
+                    <div id="middle">
+                        <div id="input" data-topic="hexa">
+                            <span id="name"></span>
+                            <input type="text" id="text" data-bind="textInput: actColor">
+                        </div>
+                        <div id="preview"></div>
+                    </div>
+                    <div id="bottom">
+                        <div id="transparent"></div>
+                        <div id="picker-samples" sample-id="master">
+                            <div id="sample0"></div>
+                            <div id="sample1"></div>
+                            <div id="sample2"></div>
+                            <div id="sample3"></div>
+                            <div id="sample4"></div>
+                            <div id="sample5"></div>
+                            <div id="sample6"></div>
+                            <div id="sample7"></div>
+                        </div>
+                    </div>
+                </div>
+                <knob-button id="button" class="variation-primary" params="label: 'OK'" ></knob-button>
+            </div>
+        </div>
+    </div>
+</div>

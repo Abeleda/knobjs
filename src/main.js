@@ -252,6 +252,14 @@ function initKnob(config) {
 		}
 	});
 
+	registerComponent({
+		name: "knob-color-picker",
+		createVm: require("./components/colorPicker/vm"),
+		template: require("./components/colorPicker/template.html"),
+		css: require("./components/colorPicker/css"),
+		colors: config.colors
+	});
+
 	if (config.background) {
 		document.body.style.backgroundColor = config.background;
 	}

@@ -22,11 +22,11 @@ let cssTemplate = `
 		font-size: 14px;
 		letter-spacing: 0.4px;
 		border-width: 2px;
-		border-bottom-color: ${ config.darkGray };
+		border-bottom-color: ${ config.warmGray };
 	}
 	.color-picker-in-tooltip .backgroundElementsHolder > knob-input > .knob-input > input {
 		margin-left: -13px;
-		color: ${ config.darkGray };
+		color: ${ config.warmGray };
 	}
 	.color-picker-in-tooltip > .backgroundElementsHolder > .error {
 		font-family: 'Open Sans', Arial, sans-serif;
